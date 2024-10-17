@@ -1,0 +1,17 @@
+from dotenv import load_dotenv
+from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_community.utilities import SQLDatabase
+from langchain_core.output_parsers import StrOutputParser
+# from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
+import streamlit as st
+
+def init_database(user: str, password: str, host: str, port: str, database: str) -> SQLDatabase:
+  """
+    Initialize Database for demo purpose
+  """
+  
+  db_uri = f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}"
+  return SQLDatabase.from_uri(db_uri)

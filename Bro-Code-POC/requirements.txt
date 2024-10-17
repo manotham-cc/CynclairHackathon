@@ -1,0 +1,8 @@
+langchain == 0.2.6
+langchain_core == 0.2.34
+langchain_groq == 0.1.6
+langchain_community == 0.2.6
+langgraph == 0.2.12
+python-dotenv == 1.0.0
+streamlit == 1.32.0
+mysql-connector-python==9.0.0

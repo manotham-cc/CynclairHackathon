@@ -1,0 +1,5 @@
+RETRIEVE = "retrieve"
+SQL_CHAIN = "sql_chain"
+GRADE_RESPONSES = "grade_responses"
+GENERATE = "generate"
+WEBSEARCH = "websearch"

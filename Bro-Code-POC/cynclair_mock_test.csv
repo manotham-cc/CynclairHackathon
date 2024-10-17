@@ -1,0 +1,6 @@
+Question,Answer,Is correct
+What devices have had critical alerts in the last 7 days?,"(server-001, 192.168.1.10)",TRUE
+Who is investigating the malware found on server-001?,(Dana Ingram),TRUE
+What unresolved incidents are currently under investigation?,"(2, Unauthorized Access Investigation, 2, In Progress, 2024-08-25 10:32:39)",TRUE
+"Show the latest threat intelligence from ""Threat Intel Service B.","(2, Emotet, Banking trojan spread via phishing emails., Critical, 2024-08-24 10:32:39, Threat Intel Service B)",TRUE
+Which devices are currently associated with analysts or investigators?,"((3, workstation-001, 192.168.1.30), (4, laptop-002, 192.168.1.40))",TRUE
